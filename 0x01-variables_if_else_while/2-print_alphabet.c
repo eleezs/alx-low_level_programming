@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	char c = "abcdefghijklmnopqrstuvwxyz";
+	char c;
 
+for (c = 'a'; c <= 'z'; ++c)
 	putchar(c);
 
 	return (0);
