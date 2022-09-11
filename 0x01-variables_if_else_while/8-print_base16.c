@@ -7,9 +7,20 @@
  */
 int main(void)
 {
-	char c[100] = "0123456789abcdef";
+	char c = 'a';
 
-	putchar(c);
+	int num = '0';
+
+	for (num = '0'; num <= '9'; num++)
+	{
+		putchar(num);
+	}
+
+	while (c <= 'f')
+	{
+		putchar(c);
+		c++;
+	}
 	putchar('\n');
 	return (0);
 }
