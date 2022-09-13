@@ -5,8 +5,14 @@
  *
  * Return: Always0.
  */
-int main(void)
+int print_alphabet(void)
 {
-	print_alphabet();
+	char c;
+
+	for (c = 'a'; c < 'z'; ++c)
+	{
+		_putchar(c);
+	}
+	_putchar(c);
 	return (0);
 }
