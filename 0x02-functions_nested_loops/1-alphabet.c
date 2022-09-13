@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <main.h>
+void print_alphabet(void);
 
 /**
  * main - Entry point
@@ -12,7 +13,7 @@ int main(void)
 	return (0);
 }
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
