@@ -10,7 +10,7 @@ void rev_string(char *s)
 {
 	int i;
 
-	char c = malloc(sizeof(c));;
+	char *c = "";
 
 	int j;
 
