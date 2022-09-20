@@ -18,4 +18,6 @@ char *_strcpy(char *dest, char *src);
 
 void puts_half(char *str);
 
+void print_rev(char *s);
+
 #endif
