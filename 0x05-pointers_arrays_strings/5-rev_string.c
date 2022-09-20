@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * rev_string - function name
@@ -9,7 +8,7 @@
  */
 void rev_string(char *s)
 {
-	char c[1000];
+	char c[1000] "a";
 
 	int i;
 
