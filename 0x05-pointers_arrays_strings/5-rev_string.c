@@ -13,7 +13,9 @@ void rev_string(char *s)
 
 	int j = 0;
 
-	char c[j];
+	char *c = NULL;
+	
+	c = malloc(sizeof(*c) * i);
 
 	while (s[i] != '\0')
 	{
