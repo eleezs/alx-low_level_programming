@@ -19,16 +19,7 @@ void puts_half(char *str)
 		i++;
 	}
 
-	if ((i - 1) % 2 != 0)
-	{
-		int n = (i - 1) / 2;
-
-		_putchar (str[n]);
-	}
-
 	length = (i + 1) / 2;
-
-	j = length;
 
 	while (j != 0)
 	{
