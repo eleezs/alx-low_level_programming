@@ -12,8 +12,6 @@ void puts_half(char *str)
 
 	int i = 0;
 
-	char *word;
-
 	while (str[i] != '\0')
 	{
 		i++;
@@ -23,21 +21,22 @@ void puts_half(char *str)
 	{
 		int n = (i - 1) / 2;
 
-		*word[n] = str[n];
+		_putchar (str[n]);
 	}
 
 	length = (i - 1) / 2;
 
-	int j;
+	int j = 0;
+
 	j = length;
 
 	while (j != 0)
 	{
-		*word[length] = str[length];
+		_putchar (str[length]);
 		length++;
 		--j;
 
 	}
-	return (word);
+	_putchar ('\n);
 
 }
