@@ -23,16 +23,17 @@ void puts_half(char *str)
 	{
 		int n = (i - 1) / 2;
 
-		word[n] = str[n];
+		*word[n] = str[n];
 	}
 
 	length = (i - 1) / 2;
 
-	int j = length;
+	int j;
+	j = length;
 
 	while (j != 0)
 	{
-		word[length] = str[length];
+		*word[length] = str[length];
 		length++;
 		--j;
 
