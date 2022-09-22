@@ -10,7 +10,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i, j, k;
+	int i, j;
 
 	i = 0;
 
@@ -26,17 +26,14 @@ int _strcmp(char *s1, char *s2)
 		j++;
 	}
 
-	if (i < j)
+	if (i > j)
 	{
-		k = i - j;
+		return (s1[i] - s2[j]);
 	}
-	else if (i > j)
+	else if (j > i)
 	{
-		k = i - j;
+		return (s1[i] - s2[j]);
 	}
-	else
-	{
-		k = 0;
-	}
-	return (k);
+
+	return (0);
 }
