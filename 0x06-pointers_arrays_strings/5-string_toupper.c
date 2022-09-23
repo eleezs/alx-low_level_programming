@@ -4,7 +4,7 @@
 /**
  * string_toupper - function name
  * @str: argument
- * Return: void
+ * Return: string.
  */
 
 char *string_toupper(char *str)
@@ -17,5 +17,6 @@ char *string_toupper(char *str)
 		{
 			str[i] = str[i] - 32;
 		}
+		return (str);
 	}
 }
